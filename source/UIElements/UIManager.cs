@@ -11,6 +11,7 @@ namespace SteelCustom.UIElements
         private UIButton _endTurnButton;
         private readonly UIText[] _resourceTexts = new UIText[5];
         private UIText _goldText;
+        private UIImage _placeStartingRanchHint;
         
         private UIButton[] _buildingButtons = new UIButton[3];
 
@@ -43,11 +44,21 @@ namespace SteelCustom.UIElements
             InitDiceUI();
             InitTurnCounterUI();
             InitStorageUI();
+            
+            _placeStartingRanchHint = UI.CreateUIImage(ResourcesManager.GetImage("ui_place_starting_ranch.png"), "Hint", UIRoot);
+            _placeStartingRanchHint.RectTransform.AnchorMin = new Vector2(0.5f, 0);
+            _placeStartingRanchHint.RectTransform.AnchorMax = new Vector2(0.5f, 0);
+            _placeStartingRanchHint.RectTransform.Pivot = new Vector2(0.5f, 0);
+            _placeStartingRanchHint.RectTransform.Size = new Vector2(131 * 4, 42 * 4);
+            _placeStartingRanchHint.RectTransform.AnchoredPosition = new Vector2(0, 10);
         }
 
         public void CreateBuildUI()
         {
             InitBuildUI();
+            
+            _placeStartingRanchHint.Entity.Destroy();
+            _placeStartingRanchHint = null;
         }
 
         private void InitEndTurnUI()

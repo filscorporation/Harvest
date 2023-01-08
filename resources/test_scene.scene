@@ -1,0 +1,2207 @@
+name: New scene
+mainCamera: 3790678358457798470
+childrenCount: 7
+firstChildNode: 3790678358457798470
+entities:
+  - uuid: 3790678358457798470
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 0
+        thickness: 1
+        previousNode: 9187349817214422887
+        nextNode: 9987460723408771656
+        parentNode: 0
+      AudioListener:
+        listenerVolume: 0.150000006
+      Camera:
+        renderMask: 4294967295
+        width: 13
+        height: 8.20567417
+        nearClippingPlane: 0.100000001
+        farClippingPlane: 100
+        resizeMode: 0
+        clearFlag: -1
+      IDComponent:
+        uuid: 3790678358457798470
+      NameComponent:
+        name: Main camera
+        tag: MainCamera
+      Transformation:
+        localPosition: [0, 0, 3]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 9987460723408771656
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 1
+        thickness: 1
+        previousNode: 3790678358457798470
+        nextNode: 17970052993041304374
+        parentNode: 0
+      ScriptComponent:
+        - type: SteelCustom.GameController
+          data: ~
+      IDComponent:
+        uuid: 9987460723408771656
+      NameComponent:
+        name: Game controller
+        tag: ""
+      Transformation:
+        localPosition: [0, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 17970052993041304374
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 2
+        thickness: 1
+        previousNode: 9987460723408771656
+        nextNode: 13758575937641900907
+        parentNode: 0
+      AudioSource:
+        sourceVolume: 0.100000001
+        isLoop: true
+      IDComponent:
+        uuid: 17970052993041304374
+      NameComponent:
+        name: New entity
+        tag: ""
+      Transformation:
+        localPosition: [0, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 13758575937641900907
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 3
+        thickness: 1
+        previousNode: 17970052993041304374
+        nextNode: 17796884947189187022
+        parentNode: 0
+      ScriptComponent:
+        - type: SteelCustom.UIElements.UIManager
+          data: ~
+      IDComponent:
+        uuid: 13758575937641900907
+      NameComponent:
+        name: UI manager
+        tag: ""
+      Transformation:
+        localPosition: [0, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 17796884947189187022
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 4
+        thickness: 1
+        previousNode: 13758575937641900907
+        nextNode: 17097128241532902098
+        parentNode: 0
+      IDComponent:
+        uuid: 17796884947189187022
+      NameComponent:
+        name: New UI element
+        tag: ""
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [1, 1]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 0]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+  - uuid: 17097128241532902098
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 1
+        firstChildNode: 2152537529450508718
+        hierarchyDepth: 0
+        nodeIndex: 5
+        thickness: 11
+        previousNode: 17796884947189187022
+        nextNode: 9187349817214422887
+        parentNode: 0
+      ScriptComponent:
+        - type: SteelCustom.UIElements.UIMenu
+          data: ~
+      IDComponent:
+        uuid: 17097128241532902098
+      NameComponent:
+        name: Menu
+        tag: ""
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [1, 1]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 0]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+  - uuid: 2152537529450508718
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 6
+        firstChildNode: 5288333977320278605
+        hierarchyDepth: 1
+        nodeIndex: 0
+        thickness: 10
+        previousNode: 2152537529450508718
+        nextNode: 2152537529450508718
+        parentNode: 17097128241532902098
+      IDComponent:
+        uuid: 2152537529450508718
+      NameComponent:
+        name: Menu
+        tag: ""
+      UIImage:
+        material: 10333421371436349153
+        image: 16521605255293739174
+        color: [1, 1, 1, 1]
+        consumeEvents: true
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [1, 1]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 0]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIEventHandler: ~
+  - uuid: 9187349817214422887
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 62
+        firstChildNode: 4291530075334465369
+        hierarchyDepth: 0
+        nodeIndex: 6
+        thickness: 63
+        previousNode: 17097128241532902098
+        nextNode: 3790678358457798470
+        parentNode: 0
+      IDComponent:
+        uuid: 9187349817214422887
+      NameComponent:
+        name: Decorations
+        tag: ""
+      Transformation:
+        localPosition: [-4, -3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4291530075334465369
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 0
+        thickness: 1
+        previousNode: 8935905525752956615
+        nextNode: 11331767140017185791
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 4291530075334465369
+      NameComponent:
+        name: Hex ((-4, 0, 4))
+        tag: ""
+      Transformation:
+        localPosition: [-3.46410155, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 11331767140017185791
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 1
+        thickness: 1
+        previousNode: 4291530075334465369
+        nextNode: 16857908843860305507
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 11331767140017185791
+      NameComponent:
+        name: Hex ((-4, 1, 3))
+        tag: ""
+      Transformation:
+        localPosition: [-3.03108883, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 16857908843860305507
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 2
+        thickness: 1
+        previousNode: 11331767140017185791
+        nextNode: 15115470321512502058
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 16857908843860305507
+      NameComponent:
+        name: Hex ((-4, 2, 2))
+        tag: ""
+      Transformation:
+        localPosition: [-2.59807611, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 15115470321512502058
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 3
+        thickness: 1
+        previousNode: 16857908843860305507
+        nextNode: 6456869065142087035
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 15115470321512502058
+      NameComponent:
+        name: Hex ((-4, 3, 1))
+        tag: ""
+      Transformation:
+        localPosition: [-2.16506338, -2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 6456869065142087035
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 4
+        thickness: 1
+        previousNode: 15115470321512502058
+        nextNode: 894289918218018455
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 6456869065142087035
+      NameComponent:
+        name: Hex ((-4, 4, 0))
+        tag: ""
+      Transformation:
+        localPosition: [-1.73205078, -3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 894289918218018455
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 5
+        thickness: 1
+        previousNode: 6456869065142087035
+        nextNode: 4818837522571282094
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 894289918218018455
+      NameComponent:
+        name: Hex ((-3, -1, 4))
+        tag: ""
+      Transformation:
+        localPosition: [-3.03108883, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4818837522571282094
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 6
+        thickness: 1
+        previousNode: 894289918218018455
+        nextNode: 8508238346180938150
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 4818837522571282094
+      NameComponent:
+        name: Hex ((-3, 0, 3))
+        tag: ""
+      Transformation:
+        localPosition: [-2.59807611, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 8508238346180938150
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 7
+        thickness: 1
+        previousNode: 4818837522571282094
+        nextNode: 4337167358679616783
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 8508238346180938150
+      NameComponent:
+        name: Hex ((-3, 1, 2))
+        tag: ""
+      Transformation:
+        localPosition: [-2.16506338, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4337167358679616783
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 8
+        thickness: 1
+        previousNode: 8508238346180938150
+        nextNode: 1547779956067646289
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 4337167358679616783
+      NameComponent:
+        name: Hex ((-3, 2, 1))
+        tag: ""
+      Transformation:
+        localPosition: [-1.73205078, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 1547779956067646289
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 9
+        thickness: 1
+        previousNode: 4337167358679616783
+        nextNode: 1163422252570457398
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 1547779956067646289
+      NameComponent:
+        name: Hex ((-3, 3, 0))
+        tag: ""
+      Transformation:
+        localPosition: [-1.29903805, -2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 1163422252570457398
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 10
+        thickness: 1
+        previousNode: 1547779956067646289
+        nextNode: 3260564108002089792
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 1163422252570457398
+      NameComponent:
+        name: Hex ((-3, 4, -1))
+        tag: ""
+      Transformation:
+        localPosition: [-0.866025388, -3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 3260564108002089792
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 11
+        thickness: 1
+        previousNode: 1163422252570457398
+        nextNode: 8978707979729363107
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 3260564108002089792
+      NameComponent:
+        name: Hex ((-2, -2, 4))
+        tag: ""
+      Transformation:
+        localPosition: [-2.59807611, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 8978707979729363107
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 12
+        thickness: 1
+        previousNode: 3260564108002089792
+        nextNode: 5508424107605908167
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 8978707979729363107
+      NameComponent:
+        name: Hex ((-2, -1, 3))
+        tag: ""
+      Transformation:
+        localPosition: [-2.16506338, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 5508424107605908167
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 13
+        thickness: 1
+        previousNode: 8978707979729363107
+        nextNode: 8021862767554651060
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 5508424107605908167
+      NameComponent:
+        name: Hex ((-2, 0, 2))
+        tag: ""
+      Transformation:
+        localPosition: [-1.73205078, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 8021862767554651060
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 14
+        thickness: 1
+        previousNode: 5508424107605908167
+        nextNode: 14054794097244294487
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 8021862767554651060
+      NameComponent:
+        name: Hex ((-2, 1, 1))
+        tag: ""
+      Transformation:
+        localPosition: [-1.29903805, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 14054794097244294487
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 15
+        thickness: 1
+        previousNode: 8021862767554651060
+        nextNode: 7383946593039190968
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 14054794097244294487
+      NameComponent:
+        name: Hex ((-2, 2, 0))
+        tag: ""
+      Transformation:
+        localPosition: [-0.866025388, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 7383946593039190968
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 16
+        thickness: 1
+        previousNode: 14054794097244294487
+        nextNode: 5570997036963558579
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 7383946593039190968
+      NameComponent:
+        name: Hex ((-2, 3, -1))
+        tag: ""
+      Transformation:
+        localPosition: [-0.433012694, -2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 5570997036963558579
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 17
+        thickness: 1
+        previousNode: 7383946593039190968
+        nextNode: 4239220582502560945
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 5570997036963558579
+      NameComponent:
+        name: Hex ((-2, 4, -2))
+        tag: ""
+      Transformation:
+        localPosition: [0, -3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4239220582502560945
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 18
+        thickness: 1
+        previousNode: 5570997036963558579
+        nextNode: 1472863086106086401
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 4239220582502560945
+      NameComponent:
+        name: Hex ((-1, -3, 4))
+        tag: ""
+      Transformation:
+        localPosition: [-2.16506338, 2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 1472863086106086401
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 19
+        thickness: 1
+        previousNode: 4239220582502560945
+        nextNode: 14136870033908952322
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 1472863086106086401
+      NameComponent:
+        name: Hex ((-1, -2, 3))
+        tag: ""
+      Transformation:
+        localPosition: [-1.73205078, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 14136870033908952322
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 20
+        thickness: 1
+        previousNode: 1472863086106086401
+        nextNode: 6990709502137149802
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 14136870033908952322
+      NameComponent:
+        name: Hex ((-1, -1, 2))
+        tag: ""
+      Transformation:
+        localPosition: [-1.29903805, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 6990709502137149802
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 21
+        thickness: 1
+        previousNode: 14136870033908952322
+        nextNode: 9212482787561972617
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 6990709502137149802
+      NameComponent:
+        name: Hex ((-1, 0, 1))
+        tag: ""
+      Transformation:
+        localPosition: [-0.866025388, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 9212482787561972617
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 22
+        thickness: 1
+        previousNode: 6990709502137149802
+        nextNode: 1566014003617444750
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 9212482787561972617
+      NameComponent:
+        name: Hex ((-1, 1, 0))
+        tag: ""
+      Transformation:
+        localPosition: [-0.433012694, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 1566014003617444750
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 23
+        thickness: 1
+        previousNode: 9212482787561972617
+        nextNode: 4621585463609669434
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 1566014003617444750
+      NameComponent:
+        name: Hex ((-1, 2, -1))
+        tag: ""
+      Transformation:
+        localPosition: [0, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4621585463609669434
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 24
+        thickness: 1
+        previousNode: 1566014003617444750
+        nextNode: 16638831167303425734
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 4621585463609669434
+      NameComponent:
+        name: Hex ((-1, 3, -2))
+        tag: ""
+      Transformation:
+        localPosition: [0.433012694, -2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 16638831167303425734
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 25
+        thickness: 1
+        previousNode: 4621585463609669434
+        nextNode: 6812565669276104977
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 16638831167303425734
+      NameComponent:
+        name: Hex ((-1, 4, -3))
+        tag: ""
+      Transformation:
+        localPosition: [0.866025388, -3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 6812565669276104977
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 26
+        thickness: 1
+        previousNode: 16638831167303425734
+        nextNode: 2275061468047056804
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 6812565669276104977
+      NameComponent:
+        name: Hex ((0, -4, 4))
+        tag: ""
+      Transformation:
+        localPosition: [-1.73205078, 3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 2275061468047056804
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 27
+        thickness: 1
+        previousNode: 6812565669276104977
+        nextNode: 9619613468123242519
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 2275061468047056804
+      NameComponent:
+        name: Hex ((0, -3, 3))
+        tag: ""
+      Transformation:
+        localPosition: [-1.29903805, 2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 9619613468123242519
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 28
+        thickness: 1
+        previousNode: 2275061468047056804
+        nextNode: 5942844389473127273
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 9619613468123242519
+      NameComponent:
+        name: Hex ((0, -2, 2))
+        tag: ""
+      Transformation:
+        localPosition: [-0.866025388, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 5942844389473127273
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 29
+        thickness: 1
+        previousNode: 9619613468123242519
+        nextNode: 14968897624735718161
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 5942844389473127273
+      NameComponent:
+        name: Hex ((0, -1, 1))
+        tag: ""
+      Transformation:
+        localPosition: [-0.433012694, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 14968897624735718161
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 30
+        thickness: 1
+        previousNode: 5942844389473127273
+        nextNode: 2977046331072586126
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 14968897624735718161
+      NameComponent:
+        name: Hex ((0, 0, 0))
+        tag: ""
+      Transformation:
+        localPosition: [0, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 2977046331072586126
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 31
+        thickness: 1
+        previousNode: 14968897624735718161
+        nextNode: 10296010574640387067
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 2977046331072586126
+      NameComponent:
+        name: Hex ((0, 1, -1))
+        tag: ""
+      Transformation:
+        localPosition: [0.433012694, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 10296010574640387067
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 32
+        thickness: 1
+        previousNode: 2977046331072586126
+        nextNode: 13914137037179558791
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 10296010574640387067
+      NameComponent:
+        name: Hex ((0, 2, -2))
+        tag: ""
+      Transformation:
+        localPosition: [0.866025388, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 13914137037179558791
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 33
+        thickness: 1
+        previousNode: 10296010574640387067
+        nextNode: 7876834102831524627
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 1039824278820571485
+      IDComponent:
+        uuid: 13914137037179558791
+      NameComponent:
+        name: Hex ((0, 3, -3))
+        tag: ""
+      Transformation:
+        localPosition: [1.29903805, -2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 7876834102831524627
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 34
+        thickness: 1
+        previousNode: 13914137037179558791
+        nextNode: 10369016860630593
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 7876834102831524627
+      NameComponent:
+        name: Hex ((0, 4, -4))
+        tag: ""
+      Transformation:
+        localPosition: [1.73205078, -3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 10369016860630593
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 35
+        thickness: 1
+        previousNode: 7876834102831524627
+        nextNode: 6350252867401754136
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 10369016860630593
+      NameComponent:
+        name: Hex ((1, -4, 3))
+        tag: ""
+      Transformation:
+        localPosition: [-0.866025388, 3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 6350252867401754136
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 36
+        thickness: 1
+        previousNode: 10369016860630593
+        nextNode: 6215274266166404083
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 6350252867401754136
+      NameComponent:
+        name: Hex ((1, -3, 2))
+        tag: ""
+      Transformation:
+        localPosition: [-0.433012694, 2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 6215274266166404083
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 37
+        thickness: 1
+        previousNode: 6350252867401754136
+        nextNode: 1011472646227706812
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 6215274266166404083
+      NameComponent:
+        name: Hex ((1, -2, 1))
+        tag: ""
+      Transformation:
+        localPosition: [0, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 1011472646227706812
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 38
+        thickness: 1
+        previousNode: 6215274266166404083
+        nextNode: 5095080483089537443
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 1011472646227706812
+      NameComponent:
+        name: Hex ((1, -1, 0))
+        tag: ""
+      Transformation:
+        localPosition: [0.433012694, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 5095080483089537443
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 39
+        thickness: 1
+        previousNode: 1011472646227706812
+        nextNode: 267017834504446324
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 5095080483089537443
+      NameComponent:
+        name: Hex ((1, 0, -1))
+        tag: ""
+      Transformation:
+        localPosition: [0.866025388, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 267017834504446324
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 40
+        thickness: 1
+        previousNode: 5095080483089537443
+        nextNode: 10301867526776060253
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 267017834504446324
+      NameComponent:
+        name: Hex ((1, 1, -2))
+        tag: ""
+      Transformation:
+        localPosition: [1.29903805, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 10301867526776060253
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 41
+        thickness: 1
+        previousNode: 267017834504446324
+        nextNode: 9855792283743092011
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 10301867526776060253
+      NameComponent:
+        name: Hex ((1, 2, -3))
+        tag: ""
+      Transformation:
+        localPosition: [1.73205078, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 9855792283743092011
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 42
+        thickness: 1
+        previousNode: 10301867526776060253
+        nextNode: 908230367568951972
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 9855792283743092011
+      NameComponent:
+        name: Hex ((1, 3, -4))
+        tag: ""
+      Transformation:
+        localPosition: [2.16506338, -2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 908230367568951972
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 43
+        thickness: 1
+        previousNode: 9855792283743092011
+        nextNode: 7217993063868056629
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 908230367568951972
+      NameComponent:
+        name: Hex ((2, -4, 2))
+        tag: ""
+      Transformation:
+        localPosition: [0, 3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 7217993063868056629
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 44
+        thickness: 1
+        previousNode: 908230367568951972
+        nextNode: 2524205064279101155
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 7217993063868056629
+      NameComponent:
+        name: Hex ((2, -3, 1))
+        tag: ""
+      Transformation:
+        localPosition: [0.433012694, 2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 2524205064279101155
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 45
+        thickness: 1
+        previousNode: 7217993063868056629
+        nextNode: 8371797034123041349
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 2524205064279101155
+      NameComponent:
+        name: Hex ((2, -2, 0))
+        tag: ""
+      Transformation:
+        localPosition: [0.866025388, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 8371797034123041349
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 46
+        thickness: 1
+        previousNode: 2524205064279101155
+        nextNode: 4288732440062724728
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 8371797034123041349
+      NameComponent:
+        name: Hex ((2, -1, -1))
+        tag: ""
+      Transformation:
+        localPosition: [1.29903805, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4288732440062724728
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 47
+        thickness: 1
+        previousNode: 8371797034123041349
+        nextNode: 11539716793271936432
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 4288732440062724728
+      NameComponent:
+        name: Hex ((2, 0, -2))
+        tag: ""
+      Transformation:
+        localPosition: [1.73205078, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 11539716793271936432
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 48
+        thickness: 1
+        previousNode: 4288732440062724728
+        nextNode: 13219461028827393641
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 11539716793271936432
+      NameComponent:
+        name: Hex ((2, 1, -3))
+        tag: ""
+      Transformation:
+        localPosition: [2.16506338, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 13219461028827393641
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 49
+        thickness: 1
+        previousNode: 11539716793271936432
+        nextNode: 7988257057786948380
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 13219461028827393641
+      NameComponent:
+        name: Hex ((2, 2, -4))
+        tag: ""
+      Transformation:
+        localPosition: [2.59807611, -1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 7988257057786948380
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 50
+        thickness: 1
+        previousNode: 13219461028827393641
+        nextNode: 3109792848977158340
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 7988257057786948380
+      NameComponent:
+        name: Hex ((3, -4, 1))
+        tag: ""
+      Transformation:
+        localPosition: [0.866025388, 3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 3109792848977158340
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 51
+        thickness: 1
+        previousNode: 7988257057786948380
+        nextNode: 2200091141883709533
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 3109792848977158340
+      NameComponent:
+        name: Hex ((3, -3, 0))
+        tag: ""
+      Transformation:
+        localPosition: [1.29903805, 2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 2200091141883709533
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 52
+        thickness: 1
+        previousNode: 3109792848977158340
+        nextNode: 10904762375642633866
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 10332705348102295063
+      IDComponent:
+        uuid: 2200091141883709533
+      NameComponent:
+        name: Hex ((3, -2, -1))
+        tag: ""
+      Transformation:
+        localPosition: [1.73205078, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 10904762375642633866
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 53
+        thickness: 1
+        previousNode: 2200091141883709533
+        nextNode: 13737161052640785992
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 10904762375642633866
+      NameComponent:
+        name: Hex ((3, -1, -2))
+        tag: ""
+      Transformation:
+        localPosition: [2.16506338, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 13737161052640785992
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 54
+        thickness: 1
+        previousNode: 10904762375642633866
+        nextNode: 16808623331708266344
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 13737161052640785992
+      NameComponent:
+        name: Hex ((3, 0, -3))
+        tag: ""
+      Transformation:
+        localPosition: [2.59807611, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 16808623331708266344
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 55
+        thickness: 1
+        previousNode: 13737161052640785992
+        nextNode: 9602729959289112798
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 16808623331708266344
+      NameComponent:
+        name: Hex ((3, 1, -4))
+        tag: ""
+      Transformation:
+        localPosition: [3.03108883, -0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 9602729959289112798
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 56
+        thickness: 1
+        previousNode: 16808623331708266344
+        nextNode: 4365532557511491561
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 694923982674942333
+      IDComponent:
+        uuid: 9602729959289112798
+      NameComponent:
+        name: Hex ((4, -4, 0))
+        tag: ""
+      Transformation:
+        localPosition: [1.73205078, 3, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 4365532557511491561
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 57
+        thickness: 1
+        previousNode: 9602729959289112798
+        nextNode: 8981731204724812999
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 4365532557511491561
+      NameComponent:
+        name: Hex ((4, -3, -1))
+        tag: ""
+      Transformation:
+        localPosition: [2.16506338, 2.25, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 8981731204724812999
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 58
+        thickness: 1
+        previousNode: 4365532557511491561
+        nextNode: 10733378281848394209
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 9067361946012877331
+      IDComponent:
+        uuid: 8981731204724812999
+      NameComponent:
+        name: Hex ((4, -2, -2))
+        tag: ""
+      Transformation:
+        localPosition: [2.59807611, 1.5, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 10733378281848394209
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 59
+        thickness: 1
+        previousNode: 8981731204724812999
+        nextNode: 16551986737393974394
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 12302661411839744265
+      IDComponent:
+        uuid: 10733378281848394209
+      NameComponent:
+        name: Hex ((4, -1, -3))
+        tag: ""
+      Transformation:
+        localPosition: [3.03108883, 0.75, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 16551986737393974394
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 60
+        thickness: 1
+        previousNode: 10733378281848394209
+        nextNode: 8935905525752956615
+        parentNode: 9187349817214422887
+      ScriptComponent:
+        - type: SteelCustom.Hex
+          data: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 89058069043490286
+      IDComponent:
+        uuid: 16551986737393974394
+      NameComponent:
+        name: Hex ((4, 0, -4))
+        tag: ""
+      Transformation:
+        localPosition: [3.46410155, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 8935905525752956615
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 1
+        nodeIndex: 61
+        thickness: 1
+        previousNode: 16551986737393974394
+        nextNode: 4291530075334465369
+        parentNode: 9187349817214422887
+      Animator: ~
+      SpriteRenderer:
+        material: 10625867161732373110
+        image: 3917466751836502662
+      IDComponent:
+        uuid: 8935905525752956615
+      NameComponent:
+        name: ship
+        tag: ""
+      Transformation:
+        localPosition: [8.80000019, 1, 0.5]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 5288333977320278605
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 1
+        firstChildNode: 15190005482413063463
+        hierarchyDepth: 2
+        nodeIndex: 0
+        thickness: 2
+        previousNode: 13807821710231163190
+        nextNode: 3174359722091584153
+        parentNode: 2152537529450508718
+      IDComponent:
+        uuid: 5288333977320278605
+      NameComponent:
+        name: Menu button
+        tag: ""
+      UIButton:
+        transitionInfo: [0, 0.100000001, 4294967295, 3638089983, 3217014783, 2358021375, 1499027967]
+        targetImage: 5288333977320278605
+        isInteractable: true
+      UIImage:
+        material: 10333421371436349153
+        image: 18446744073709551615
+        color: [1, 1, 1, 1]
+        consumeEvents: true
+      RectTransformation:
+        anchorMin: [0.5, 0.5]
+        anchorMax: [0.5, 0.5]
+        anchoredPosition: [0, 140]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [360, 120]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIEventHandler: ~
+  - uuid: 15190005482413063463
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 3
+        nodeIndex: 0
+        thickness: 1
+        previousNode: 15190005482413063463
+        nextNode: 15190005482413063463
+        parentNode: 5288333977320278605
+      IDComponent:
+        uuid: 15190005482413063463
+      NameComponent:
+        name: Label
+        tag: ""
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [1, 1]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 0]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIText:
+        font: 14381097040119690991
+        text: Play
+        textSize: 96
+        lineSpacing: 1
+        color: [0, 0, 0, 1]
+        isAutoSize: false
+        alignmentType: 4
+        overflowMode: 0
+  - uuid: 13807821710231163190
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 2
+        nodeIndex: 5
+        thickness: 1
+        previousNode: 18024991191311790332
+        nextNode: 5288333977320278605
+        parentNode: 2152537529450508718
+      IDComponent:
+        uuid: 13807821710231163190
+      NameComponent:
+        name: Text
+        tag: ""
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [0, 0]
+        anchoredPosition: [10, 10]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [500, 200]
+        pivot: [0, 0]
+        localRotation: [0, 0, 0]
+      UIText:
+        font: 14381097040119690991
+        text: "How to play:\n..."
+        textSize: 32
+        lineSpacing: 1
+        color: [0, 0, 0, 1]
+        isAutoSize: false
+        alignmentType: 3
+        overflowMode: 2
+  - uuid: 18024991191311790332
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 2
+        nodeIndex: 4
+        thickness: 1
+        previousNode: 857733842106430943
+        nextNode: 13807821710231163190
+        parentNode: 2152537529450508718
+      IDComponent:
+        uuid: 18024991191311790332
+      NameComponent:
+        name: About
+        tag: ""
+      RectTransformation:
+        anchorMin: [0.5, 0]
+        anchorMax: [1, 0]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 40]
+        pivot: [0, 0]
+        localRotation: [0, 0, 0]
+      UIText:
+        font: 14381097040119690991
+        text: Created in 48 hours for LD52 using Steel Engine
+        textSize: 32
+        lineSpacing: 1
+        color: [0, 0, 0, 1]
+        isAutoSize: false
+        alignmentType: 3
+        overflowMode: 0
+  - uuid: 15293451796141263473
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 1
+        firstChildNode: 17165124332891722558
+        hierarchyDepth: 2
+        nodeIndex: 2
+        thickness: 2
+        previousNode: 3174359722091584153
+        nextNode: 857733842106430943
+        parentNode: 2152537529450508718
+      IDComponent:
+        uuid: 15293451796141263473
+      NameComponent:
+        name: Menu button
+        tag: ""
+      UIButton:
+        transitionInfo: [0, 0.100000001, 4294967295, 3638089983, 3217014783, 2358021375, 1499027967]
+        targetImage: 15293451796141263473
+        isInteractable: true
+      UIImage:
+        material: 10333421371436349153
+        image: 18446744073709551615
+        color: [1, 1, 1, 1]
+        consumeEvents: true
+      RectTransformation:
+        anchorMin: [0.5, 0.5]
+        anchorMax: [0.5, 0.5]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [360, 120]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIEventHandler: ~
+  - uuid: 17165124332891722558
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 3
+        nodeIndex: 0
+        thickness: 1
+        previousNode: 17165124332891722558
+        nextNode: 17165124332891722558
+        parentNode: 15293451796141263473
+      IDComponent:
+        uuid: 17165124332891722558
+      NameComponent:
+        name: Label
+        tag: ""
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [1, 1]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 0]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIText:
+        font: 14381097040119690991
+        text: Exit
+        textSize: 96
+        lineSpacing: 1
+        color: [0, 0, 0, 1]
+        isAutoSize: false
+        alignmentType: 4
+        overflowMode: 0
+  - uuid: 857733842106430943
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 2
+        nodeIndex: 3
+        thickness: 1
+        previousNode: 15293451796141263473
+        nextNode: 18024991191311790332
+        parentNode: 2152537529450508718
+      IDComponent:
+        uuid: 857733842106430943
+      NameComponent:
+        name: Sound button
+        tag: ""
+      UIButton:
+        transitionInfo: [0, 0.100000001, 4294967295, 3638089983, 3217014783, 2358021375, 1499027967]
+        targetImage: 857733842106430943
+        isInteractable: true
+      UIImage:
+        material: 10333421371436349153
+        image: 5251710383105230989
+        color: [1, 1, 1, 1]
+        consumeEvents: true
+      RectTransformation:
+        anchorMin: [0.5, 0]
+        anchorMax: [0.5, 0]
+        anchoredPosition: [250, 100]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [332, 72]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIEventHandler: ~
+  - uuid: 3174359722091584153
+    state: 0
+    components:
+      HierarchyNode:
+        childrenCount: 1
+        firstChildNode: 12536577737199737378
+        hierarchyDepth: 2
+        nodeIndex: 1
+        thickness: 2
+        previousNode: 5288333977320278605
+        nextNode: 15293451796141263473
+        parentNode: 2152537529450508718
+      IDComponent:
+        uuid: 3174359722091584153
+      NameComponent:
+        name: Menu button
+        tag: ""
+      UIButton:
+        transitionInfo: [0, 0.100000001, 4294967295, 3638089983, 3217014783, 2358021375, 1499027967]
+        targetImage: 3174359722091584153
+        isInteractable: true
+      UIImage:
+        material: 10333421371436349153
+        image: 18446744073709551615
+        color: [1, 1, 1, 1]
+        consumeEvents: true
+      RectTransformation:
+        anchorMin: [0.5, 0.5]
+        anchorMax: [0.5, 0.5]
+        anchoredPosition: [0, 140]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [360, 120]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIEventHandler: ~
+  - uuid: 12536577737199737378
+    state: 2
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 3
+        nodeIndex: 0
+        thickness: 1
+        previousNode: 12536577737199737378
+        nextNode: 12536577737199737378
+        parentNode: 3174359722091584153
+      IDComponent:
+        uuid: 12536577737199737378
+      NameComponent:
+        name: Label
+        tag: ""
+      RectTransformation:
+        anchorMin: [0, 0]
+        anchorMax: [1, 1]
+        anchoredPosition: [0, 0]
+        offsetMin: [0, 0]
+        offsetMax: [0, 0]
+        size: [0, 0]
+        pivot: [0.5, 0.5]
+        localRotation: [0, 0, 0]
+      UIText:
+        font: 14381097040119690991
+        text: Continue
+        textSize: 96
+        lineSpacing: 1
+        color: [0, 0, 0, 1]
+        isAutoSize: false
+        alignmentType: 4
+        overflowMode: 0

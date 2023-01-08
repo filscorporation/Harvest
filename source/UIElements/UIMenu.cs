@@ -36,17 +36,17 @@ namespace SteelCustom.UIElements
             
             {
                 UIText uiText = UI.CreateUIText($"How to play:\n" +
-                                                $"...", "Text", menu);
+                                                $"Place starting ranch, harvest resources by rolling the dice, sell goods to the merchant and earn as much gold as you can", "Text", menu);
                 uiText.Color = Color.Black;
                 uiText.TextSize = 32;
                 uiText.TextAlignment = AlignmentType.CenterLeft;
                 uiText.TextOverflowMode = OverflowMode.WrapByWords;
 
-                uiText.RectTransform.AnchorMin = new Vector2(0.0f, 0.0f);
-                uiText.RectTransform.AnchorMax = new Vector2(0.0f, 0.0f);
+                uiText.RectTransform.AnchorMin = new Vector2(0.0f, 1);
+                uiText.RectTransform.AnchorMax = new Vector2(0.0f, 1);
                 uiText.RectTransform.Size = new Vector2(500, 200);
-                uiText.RectTransform.Pivot = new Vector2(0.0f, 0.0f);
-                uiText.RectTransform.AnchoredPosition = new Vector2(10, 10);
+                uiText.RectTransform.Pivot = new Vector2(0.0f, 1);
+                uiText.RectTransform.AnchoredPosition = new Vector2(10, -10);
             }
         }
 
@@ -125,15 +125,15 @@ namespace SteelCustom.UIElements
                 uiText.TextAlignment = AlignmentType.BottomMiddle;
             }
             {
-                UIText text = UI.CreateUIText("Good result is above 100?\nAmazing result is above 200?", "Result info", menu);
+                UIText text = UI.CreateUIText("Good result is above 100\nAmazing result is above 200", "Result info", menu);
                 text.Color = Color.Black;
                 text.TextSize = 32;
                 text.TextAlignment = AlignmentType.BottomLeft;
-                text.RectTransform.AnchorMin = new Vector2(1, 0.0f);
-                text.RectTransform.AnchorMax = new Vector2(1, 0.0f);
-                text.RectTransform.Pivot = new Vector2(1, 0.0f);
+                text.RectTransform.AnchorMin = new Vector2(1, 1);
+                text.RectTransform.AnchorMax = new Vector2(1, 1);
+                text.RectTransform.Pivot = new Vector2(1, 1);
                 text.RectTransform.Size = new Vector2(400, 100);
-                text.RectTransform.AnchoredPosition = new Vector2(0, 150);
+                text.RectTransform.AnchoredPosition = new Vector2(0, -300);
             }
 
             CreateMenuButton("Restart", 140).OnClick.AddCallback(Restart);

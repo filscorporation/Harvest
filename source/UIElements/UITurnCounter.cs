@@ -21,7 +21,7 @@ namespace SteelCustom.UIElements
 
         public override void OnMouseEnterUI()
         {
-            _tooltip = UITooltip.ShowTooltip($"Game will end in {GameController.MAX_TURN - GameController.Instance.CurrentTurn} turns.\nGet as much gold as you can!", 80);
+            _tooltip = UITooltip.ShowTooltip($"Game will end in {GameController.MAX_TURN - GameController.Instance.CurrentTurn} turns.\nGet as much gold as you can!\nYou will get guaranteed merchant at last turn.", 100);
         }
 
         public override void OnMouseExitUI()

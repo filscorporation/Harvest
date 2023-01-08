@@ -37,7 +37,54 @@ namespace SteelCustom
         {
             const int fullSize = SIZE * 2 + 1;
             _map = new Hex[fullSize, fullSize, fullSize];
+
+            int count = 0;
+            for (int q = -SIZE; q <= SIZE; q++)
+            {
+                for (int r = -SIZE; r <= SIZE; r++)
+                {
+                    for (int s = -SIZE; s <= SIZE; s++)
+                    {
+                        Coords coords = new Coords(q, r, s);
+                        if (!coords.IsValid() || IsBorderHex(coords))
+                            continue;
+
+                        count++;
+                    }
+                }
+            }
             
+            Log.LogInfo("Count " + count);
+
+            List<HexType> hexTypes = new List<HexType>(count);
+            hexTypes.Add(HexType.Wasteland);
+            hexTypes.Add(HexType.Wasteland);
+            hexTypes.Add(HexType.Wasteland);
+            count -= 3;
+            
+            int nextType = 2;
+            while (count >= 0)
+            {
+                hexTypes.Add((HexType)nextType);
+                nextType++;
+                if (nextType > 6)
+                    nextType = 2;
+                
+                count--;
+            }
+            Shuffle(hexTypes);
+
+            List<int> numbers = new List<int>(36);
+            for (int i = 1; i <= 6; i++)
+            {
+                for (int j = 1; j <= 6; j++)
+                {
+                    numbers.Add(i + j);
+                }
+            }
+            Shuffle(numbers);
+
+            int typeCounter = 0, numberCounter = 0;
             for (int q = -SIZE; q <= SIZE; q++)
             {
                 for (int r = -SIZE; r <= SIZE; r++)
@@ -50,8 +97,24 @@ namespace SteelCustom
                         
                         Entity entity = new Entity($"Hex ({coords})", Entity);
                         Hex hex = entity.AddComponent<Hex>();
-                        HexType hexType = GetHexType(coords);
-                        hex.Init(coords, hexType, GetNumber(coords, hexType));
+                        
+                        HexType hexType;
+                        if (IsBorderHex(coords))
+                            hexType = HexType.Water;
+                        else
+                        {
+                            hexType = hexTypes[typeCounter];
+                            typeCounter++;
+                        }
+
+                        int number = GetNumber(coords, hexType);
+                        if (number != -1 && numbers.Count < numberCounter)
+                        {
+                            number = numbers[numberCounter];
+                            numberCounter++;
+                        }
+
+                        hex.Init(coords, hexType, number);
                         _map[SIZE + q, SIZE + r, SIZE + s] = hex;
                     }
                 }
@@ -90,13 +153,31 @@ namespace SteelCustom
 
             return (HexType)Random.NextInt(1, 6);
         }
+        
+        private static void Shuffle<T>(IList<T> list)
+        {
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;  
+                int k = Random.NextInt(0, n + 1);
+                T value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
+        }
 
         private int GetNumber(Coords coords, HexType hexType)
         {
             if (hexType == HexType.Water || hexType == HexType.Wasteland)
                 return -1;
 
-            int number = Random.NextInt(1, 11);
+            int number1 = Random.NextInt(1, 6);
+            int number2 = Random.NextInt(1, 6);
+            if (number1 + number2 != 7)
+                return number1 + number2;
+            int number = Random.NextInt(2, 11);
+            
             return number >= 7 ? number + 1 : number;
         }
 

@@ -1,9 +1,0 @@
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\bin\Debug\SteelCustom.dll
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\bin\Debug\SteelCustom.pdb
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\bin\Debug\SteelCore.dll
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\bin\Debug\SteelCore.pdb
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\obj\Debug\SteelCustom.csproj.AssemblyReference.cache
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\obj\Debug\SteelCustom.csproj.CoreCompileInputs.cache
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\obj\Debug\SteelCustom.csproj.CopyComplete
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\obj\Debug\SteelCustom.dll
-C:\Users\louie\Documents\Projects\LD52\Steel\scripting\SteelCustom\obj\Debug\SteelCustom.pdb

@@ -27,7 +27,7 @@ namespace SteelCustom
         private bool _endGame = false;
 
         public int CurrentTurn { get; private set; }
-        public const int MAX_TURN = 60;
+        public const int MAX_TURN = 70;
         
         public override void OnCreate()
         {
@@ -149,9 +149,9 @@ namespace SteelCustom
             
             yield return new WaitForSeconds(1.0f);
             
-            if (Dice.Value == 7)
+            if (Dice.Value == 7 || CurrentTurn == MAX_TURN - 1)
                 MerchantShip.StartTrade();
-            else
+            if (Dice.Value != 7)
                 Player.GainResourcesFromNumber(Dice.Value);
             
             yield return new WaitForSeconds(1.0f);
@@ -178,7 +178,7 @@ namespace SteelCustom
 
             UIManager.DisableEndTurnButton();
             
-            if (Dice.Value == 7)
+            if (Dice.Value == 7 || _endGame)
             {
                 MerchantShip.FinishTrade();
                 yield return new WaitForSeconds(0.5f);

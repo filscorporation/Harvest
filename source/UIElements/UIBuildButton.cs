@@ -37,6 +37,12 @@ namespace SteelCustom.UIElements
             UpdateState();
         }
 
+        public override void OnMouseOverUI()
+        {
+            if (Input.IsMouseJustPressed(MouseCodes.ButtonLeft))
+                OnMouseEnterUI(); // Refresh tooltip
+        }
+
         private void UpdateState()
         {
             Player player = GameController.Instance.Player;

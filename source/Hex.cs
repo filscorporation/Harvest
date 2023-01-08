@@ -28,7 +28,7 @@ namespace SteelCustom
             if (number > 0)
             {
                 _numberEntity = new Entity("Number", Entity);
-                _numberEntity.Transformation.LocalPosition = new Vector3(0, 0, 1.0f);
+                _numberEntity.Transformation.LocalPosition = new Vector3(0, 0, 1.1f);
                 _numberEntity.AddComponent<SpriteRenderer>().Sprite = ResourcesManager.GetImage(NumberToSpritePath(Number));
             }
         }

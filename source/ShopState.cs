@@ -24,10 +24,10 @@ namespace SteelCustom
                 SellPrice = new []
                 {
                     Random.NextInt(1, 1),         // Wood
-                    Random.NextInt(3, MAX_PRICE), // Tobacco
+                    Random.NextInt(1, MAX_PRICE), // Tobacco
                     Random.NextInt(1, 1),         // Corn
-                    Random.NextInt(3, MAX_PRICE), // Cotton
-                    Random.NextInt(3, MAX_PRICE), // Spices
+                    Random.NextInt(1, MAX_PRICE), // Cotton
+                    Random.NextInt(1, MAX_PRICE), // Spices
                 },
             };
         }

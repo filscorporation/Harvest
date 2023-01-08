@@ -20,8 +20,8 @@ namespace SteelCustom
 
         public override void OnCreate()
         {
-            //_resources[(int)ResourceType.Wood] += 50;// TODO: remove
-            //_resources[(int)ResourceType.Corn] += 50;// TODO: remove
+            //_resources[(int)ResourceType.Wood] += 200;
+            //_resources[(int)ResourceType.Corn] += 50;
         }
 
         public void GainResource(ResourceType type)
