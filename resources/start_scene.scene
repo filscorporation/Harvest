@@ -1,0 +1,60 @@
+name: New scene
+mainCamera: 3790678358457798470
+childrenCount: 2
+firstChildNode: 3790678358457798470
+entities:
+  - uuid: 3790678358457798470
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 0
+        thickness: 1
+        previousNode: 9987460723408771656
+        nextNode: 9987460723408771656
+        parentNode: 0
+      AudioListener:
+        listenerVolume: 1
+      Camera:
+        renderMask: 4294967295
+        width: 4.75280905
+        height: 3
+        nearClippingPlane: 0.100000001
+        farClippingPlane: 100
+        resizeMode: 0
+        clearFlag: -1
+      IDComponent:
+        uuid: 3790678358457798470
+      NameComponent:
+        name: Main camera
+        tag: MainCamera
+      Transformation:
+        localPosition: [0, 0, 3]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]
+  - uuid: 9987460723408771656
+    state: 3
+    components:
+      HierarchyNode:
+        childrenCount: 0
+        firstChildNode: 0
+        hierarchyDepth: 0
+        nodeIndex: 1
+        thickness: 1
+        previousNode: 3790678358457798470
+        nextNode: 3790678358457798470
+        parentNode: 0
+      ScriptComponent:
+        - type: SteelCustom.GameController
+          data: ~
+      IDComponent:
+        uuid: 9987460723408771656
+      NameComponent:
+        name: Game controller
+        tag: ""
+      Transformation:
+        localPosition: [0, 0, 0]
+        localRotation: [0, 0, 0]
+        localScale: [1, 1, 1]

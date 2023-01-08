@@ -1,0 +1,14 @@
+type_id: 1
+id: 10497641013903248197
+data:
+  isSliced: true
+  sliceTopOffset: 1
+  sliceBottomOffset: 1
+  sliceLeftOffset: 1
+  sliceRightOffset: 1
+  pixelsPerUnit: 128
+  pivot: [0.5, 0.5]
+  isTransparent: false
+  isSpriteSheet: false
+  tileWidth: 0
+  tileHeight: 0

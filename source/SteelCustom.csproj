@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15B166FE-4CC0-48FC-961C-91437C541858}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SteelCustom</RootNamespace>
+    <AssemblyName>SteelCustom</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SteelCore">
+      <HintPath>..\SteelCore\bin\Debug\SteelCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Builder.cs" />
+    <Compile Include="Building.cs" />
+    <Compile Include="BuildingCoords.cs" />
+    <Compile Include="BuildingType.cs" />
+    <Compile Include="Coords.cs" />
+    <Compile Include="Dice.cs" />
+    <Compile Include="GameController.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="Hex.cs" />
+    <Compile Include="HexType.cs" />
+    <Compile Include="Map.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="ResourceGainAnimator.cs" />
+    <Compile Include="ResourceType.cs" />
+    <Compile Include="MerchantShip.cs" />
+    <Compile Include="ShopState.cs" />
+    <Compile Include="Storage.cs" />
+    <Compile Include="UIElements\UIBuildButton.cs" />
+    <Compile Include="UIElements\UIDice.cs" />
+    <Compile Include="UIElements\UIManager.cs" />
+    <Compile Include="UIElements\UIMenu.cs" />
+    <Compile Include="UIElements\UIResource.cs" />
+    <Compile Include="UIElements\UIShop.cs" />
+    <Compile Include="UIElements\UIStorage.cs" />
+    <Compile Include="UIElements\UITooltip.cs" />
+    <Compile Include="UIElements\UITurnCounter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>
