@@ -1,7 +1,7 @@
 # Harvest
 Game made for Ludum Dare 52 with theme Harvest
 
-Find new spells and fit them in 10 second window to defend from enemies as lond as you can!
+Harvest resources, trade them and develop your settlement!
 
 ![Alt Text](/files/clip.gif)
 
